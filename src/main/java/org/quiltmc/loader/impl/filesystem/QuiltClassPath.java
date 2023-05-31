@@ -315,7 +315,7 @@ public class QuiltClassPath {
 						sb.append(path);
 					}
 				}
-				Log.warn(LogCategory.GENERAL, sb.toString());
+				//Log.warn(LogCategory.GENERAL, sb.toString()); DUMBEST SHIT I EVER DAMN SEEN
 			}
 			return paths.get(0);
 		}
